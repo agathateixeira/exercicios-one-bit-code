@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastro da Liga</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h3>Cadastro da liga dos astronautas</h3>
+  <label for="nome">Nome:</label>
+  <input type="text" name="name" id="nome">
+  <p>
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email"> - 
+    <label for="psd">Password:</label>
+    <input type="password" name="password" id="psd"> 
+  </p>
+  <p>
+    <label for="date">Data de Nascimento:</label>
+    <input type="birthday" name="birthday" id="date"> - 
+    <label for="foto">Foto</label>
+    <input type="file" name="file" id="foto"> 
+  </p>
+  <p>
+    <label for="nacionality">Nacionalidade:</label>
+    <select name="nacionality" id="nacionality">
+      <option value="Russo">Russo</option>
+      <option value="Americano">Americano</option>
+      <option value="Brasileiro">Brasileiro</option> -
+    </select 
+    <div> - Gênero
+      <label for="F">F</label>
+      <input type="radio" name="gender" id="F" value="F"> 
+      <label for="M">M</label>
+      <input type="radio" name="gender" id="M" value="M">
+      <label for="Trans">Trans</label>
+      <input type="radio" name="gender" id="Trans" value="Trans">
+      <label for="NB">Não-binário</label>
+      <input type="radio" name="gender" id="NB" value="Não-binário">
+      <label for="other">Outros:</label>
+      <input type="text" name="gender" id="other" placeholder="Digite aqui">
+    </div>
+  </p>
+  <div>
+    <p>
+    Suas principais qualidades: 
+    <label for="I">Inteligência</label>
+    <input type="checkbox" name="qualities" id="I">
+    <label for="R">Resiliência</label>
+    <input type="checkbox" name="qualities" id="R">
+    <label for="PF">Preparo Físico</label>
+    <input type="checkbox" name="qualities" id="PF">
+    <label for="E">Educação</label>
+    <input type="checkbox" name="qualities" id="E">
+    </p>
+  </div>
+  <div>
+      <label for="text"></label>
+      <textarea type="text" cols="30" rows="10" placeholder="Por que você gosaria de ser um astronauta?"></textarea>
+  </div>
+  <div class="Criar">
+    <label for="Criar"></label>
+    <input type="submit" value="Criar" id="Criar" name="Submit">
+  </div>
+</body>
+</html>
