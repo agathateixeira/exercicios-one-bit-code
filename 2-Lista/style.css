@@ -1,0 +1,30 @@
+*{background-size: border-box;
+  margin: 0px;}
+body{background-color: #2723eb;}
+
+#tela{padding-top:80px;
+      padding-right: auto;
+      padding-bottom: auto;
+      padding-left: 500px;}
+
+h1{font-family:"Press Start 2P";
+    color: aliceblue;}
+
+p{font-size: 13px;
+  font-family: "Press Start 2P";
+  color: aliceblue;}
+
+section[id="1961"]
+  {font-family:"Inconsolata";
+    color:aliceblue}
+
+span{font-weight: 1000px;
+      font-style: "strong";
+      background-color: darkturquoise;
+      border-radius: 3px;
+      color: rgb(61, 2, 51);}
+
+h4{color: #b4c00b;}
+h3{color:#2a034b}
+
+
