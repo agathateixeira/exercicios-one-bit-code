@@ -8,4 +8,4 @@ Exercitar listas utilizando _ul_ e _li_
 
 Neste exercício pude evoluir um pouco mais em HTML e CSS.
 
-<img src= 'github/languages/count/agathateixeira/exercicios-one-bit-code/2-Lista/images/readme.png'>
+<img src= 'https://github.com/agathateixeira/exercicios-one-bit-code/blob/to-studies/2-Lista/images/readme.PNG?raw=true'>
