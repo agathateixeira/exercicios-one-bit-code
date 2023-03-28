@@ -1,0 +1,11 @@
+## :dart: Objetivo: :dart:
+
+Exercitar listas utilizando _ul_ e _li_
+
+## :books: Considerações sobre o exercício :books:
+
+![GitHub language count](https://img.shields.io/github/languages/count/agathateixeira/exercicios-one-bit-code/2-Lista)
+
+Neste exercício pude evoluir um pouco mais em HTML e CSS.
+
+<img src= 'github/languages/count/agathateixeira/exercicios-one-bit-code/2-Lista/images/readme.png'>
