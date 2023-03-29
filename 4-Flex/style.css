@@ -1,0 +1,43 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: content-box;
+}
+
+.container {
+  min-width: 100vh;
+  height: 65px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 30px;
+}
+
+#itemIconRock {
+  width: 50px;
+  height: auto;
+}
+
+#itemLogoOBC {
+  width: 250px;
+  height: 100%;
+}
+.menu {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  gap: 0px 10px;
+}
+button {
+  font-size: 20px;
+  border: 2px solid whitesmoke;
+  padding: 10px;
+  background-color: inherit;
+  color: azure;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+button:hover {
+  border-color: #ff0044;
+}
