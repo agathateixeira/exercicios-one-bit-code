@@ -1,0 +1,225 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: content-box;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: hotpink;
+}
+
+.header {
+  background-color: rgb(29, 29, 29);
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 40px;
+}
+
+.logo-OBC {
+  width: 230px;
+}
+
+.buttons-header {
+  display: flex;
+  gap: 20px;
+}
+
+.button-header {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  color: aliceblue;
+  cursor: pointer;
+  transition: 0.3s;
+  background-color: transparent;
+  padding: 0px 5px;
+  border: transparent;
+}
+
+.button-header:hover {
+  border-bottom: 2px solid rgb(7, 7, 7);
+}
+
+.section {
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 5px;
+  text-align: center;
+}
+#title {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 26px;
+}
+
+#subtitle {
+  font-size: 20px;
+}
+
+.main {
+  background-color: aliceblue;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "main-content main-content main-content aside"
+    "main-content main-content main-content aside"
+    "main-content main-content main-content aside";
+  flex-wrap: wrap;
+}
+
+.main-content {
+  grid-area: main-content;
+}
+
+.aside {
+  grid-area: aside;
+}
+
+.main-content {
+  background-color: aliceblue;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 0px 40px 0px 80px;
+}
+
+.main-card {
+  background-color: aliceblue;
+  border: none;
+  max-width: 330px;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.main-card:hover {
+  border: 2px solid rgb(29, 29, 29);
+}
+.main-card-image {
+  width: 300px;
+  min-height: 200px;
+  border-radius: 5px;
+}
+
+.sport-description {
+  font-size: 22px;
+}
+
+.sport-title-main {
+  font-size: 24px;
+}
+
+.aside {
+  background-color: rgb(29, 29, 29);
+  padding: 20px 60px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 30px 0px;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.aside-card {
+  text-align: center;
+  gap: 20px 0px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.aside-card:hover {
+  border: 1px solid aliceblue;
+}
+.aside-card-image {
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+}
+
+#aside-title {
+  font-size: 22px;
+  color: aliceblue;
+}
+
+.aside-subtitle {
+  font-size: 22px;
+  color: aliceblue;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 30px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(29, 29, 29);
+  padding: 30px 30px;
+  align-items: center;
+}
+
+#footer-text {
+  font-size: 20px;
+  color: aliceblue;
+}
+
+#footer-anchor {
+  text-decoration: none;
+}
+
+#footer-anchor:hover {
+  border-bottom: 2px solid #cf0452;
+}
+
+@media (max-width: 1180px) {
+  .main {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "main-content"
+      "aside";
+  }
+
+  .main-content {
+    gap: 20px;
+  }
+
+  .main-card {
+    max-width: 460px;
+  }
+
+  .main-card-image {
+    width: 450px;
+    min-height: 300px;
+    border-radius: 10px;
+  }
+
+  .aside {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+  }
+
+  .aside-card-image {
+    width: 300px;
+    height: auto;
+  }
+}
+
+@media (max-width: 550px) {
+  .header,
+  .footer {
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .button-header,
+  #footer-text {
+    font-size: 24px;
+  }
+}
