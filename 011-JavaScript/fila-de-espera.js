@@ -1,61 +1,59 @@
-// Escreva um programa em javascript para simular uma fila de espera em um consultório médico. O
-// programa deve iniciar mostrando na tela um menu interativo contendo a lista de todos os pacientes
-// esperando em ordem mostrando sua posição ao lado do nome (ex.: 1º Matheus, 2º Marcos, etc). O
-// menu também deve permitir escolher entre as opções de
-// “Novo paciente”, para adicionar um novo paciente ao fim da fila (pedindo o nome do paciente),
-//  “Consultar paciente”, que retira o primeiro paciente da fila e mostra na tela o nome do paciente consultado,
-//  e “Sair”. O programa só deve ser
-// encerrado ao escolher a opção de “Sair”, caso contrário deve voltar ao menu.
+let listaPacientes = [];
+let posicao = 1;
+let listaOrdenada = "";
 
-let listaPacientes = ["Ana", "Pedro", "Jordana", "Camila"];
-let pacientesOrdenados = "";
-let posição = 1;
-
-for (let i = 0; i < listaPacientes.length; i++) {
-  pacientesOrdenados += posição + " - " + listaPacientes[i] + "\n ";
-  posição++;
-}
-
-let option = prompt(
-  "Ordem de atendimento: \n" +
-    pacientesOrdenados +
-    "\nDigite a letra para a opção desejada: \n N - Novo Paciente \n C - Consultar Paciente \n S - Sair"
+let opcao = prompt(
+  "Sem pacientes na fila de atendimento \n" +
+    "\nDigite a letra para a opção desejada: \n\n N - Novo Paciente \n S - Sair"
 );
+let nomePaciente = "";
+while (opcao === "C" || opcao === "N") {
+  if (opcao === "N") {
+    nomePaciente = prompt(
+      "Insira o nome do paciente para inserir na fila de atendimento"
+    );
 
-while (option === "N") {
-  let nomePaciente = prompt("Insira o nome do paciente para inserir na lista:");
-  listaPacientes.push(nomePaciente);
-  pacientesOrdenados += posição + " - " + nomePaciente + "\n ";
-  posição++;
+    listaPacientes.push(nomePaciente);
+    listaOrdenada = "";
+    posicao = 1;
 
-  option = prompt(
-    "Ordem de atendimento: \n" +
-      pacientesOrdenados +
-      "\nDigite a letra para a opção desejada: \n N - Novo Paciente \n C - Consultar Paciente \n S - Sair"
-  );
-}
-while (option === "C") {
-  const pacienteConsultado = listaPacientes.shift();
-  posição = 1;
-  pacientesOrdenados = "";
+    for (let i = 0; i < listaPacientes.length; i++) {
+      listaOrdenada += posicao + "ª - " + listaPacientes[i] + "\n";
+      posicao++;
+    }
 
-  for (let i = 0; i < listaPacientes.length; i++) {
-    pacientesOrdenados += posição + " - " + listaPacientes[i] + "\n ";
-    posição++;
+    opcao = prompt(
+      "Ordem de atendimento: \n" +
+        listaOrdenada +
+        "\nDigite a letra para a opção desejada: \n\n N - Novo Paciente \n C - Consultar Paciente \n S - Sair"
+    );
+  } else if (opcao === "C") {
+    let pacienteConsultado = listaPacientes.shift(nomePaciente);
+    listaOrdenada = "";
+    posicao = 1;
+
+    for (let i = 0; i < listaPacientes.length; i++) {
+      listaOrdenada += posicao + "ª - " + listaPacientes[i] + "\n";
+      posicao++;
+    }
+    if (listaPacientes.length === 0) {
+      opcao = prompt(
+        "Sem pacientes na fila de atendimento \n" +
+          "\nDigite a letra para a opção desejada: \n\n N - Novo Paciente \n S - Sair"
+      );
+    } else {
+      opcao = prompt(
+        "Paciente consultado: " +
+          pacienteConsultado +
+          "\nOrdem de atendimento: \n" +
+          listaOrdenada +
+          "\nDigite a letra para a opção desejada: \n\n N - Novo Paciente \n C - Consultar Paciente \n S - Sair"
+      );
+    }
   }
-
-  option = prompt(
-    "Próximo: " +
-      pacienteConsultado +
-      "\n" +
-      pacienteConsultado +
-      ", favor ir se consultar\n" +
-      "Ordem de atendimento atualizado: \n" +
-      pacientesOrdenados +
-      "\nDigite a letra para a opção desejada: \n N - Novo Paciente \n C - Consultar Paciente \n S - Sair"
-  );
 }
-if (option === "S") {
+
+if (opcao === "S") {
   alert("O programa será encerrado");
 } else {
   alert("Escolha somente opções válidas: 'N', 'C' ou 'S'");
