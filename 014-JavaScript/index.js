@@ -1,73 +1,75 @@
-const imoveisCadastrados = [];
-
-let opcaoMenu = parseInt(
-  prompt(
-    "Imóveis Cadastrados = 0\nDigite o número desejado:\n1-Novo Imóvel\n2-Imóveis Cadastrados\n3-Sair"
-  )
-);
-
-do {
-  switch (opcaoMenu) {
-    case 1:
-      const novoImovel = {};
-      novoImovel.nomeProprietario = prompt(
-        "Digite o nome do proprietário do imóvel:"
-      );
-      novoImovel.quantidadeQuartos = prompt(
-        "Digite a quantidade de quartos no imóvel:"
-      );
-      novoImovel.quantidadeBanheiros = prompt(
-        "Digite a quantidade de banheiros no imóvel:"
-      );
-      novoImovel.garagem = confirm("O imóvel possui garagem?");
-
-      if (novoImovel.garagem) {
-        novoImovel.garagem = "Sim";
-      } else {
-        novoImovel.garagem = "Não";
-      }
-
-      imoveisCadastrados.push(novoImovel);
-      break;
-    case 2:
-      if (imoveisCadastrados.length === 0) {
-        opcaoMenu = parseInt(
-          prompt(
-            "Imóveis Cadastrados = " +
-              imoveisCadastrados.length +
-              "\nDigite o número desejado:\n1-Novo Imóvel\n2-Imóveis Cadastrados\n3-Sair"
-          )
-        );
-      } else {
-        for (let i = 0; i < imoveisCadastrados.length; i++) {
-          alert(
-            "Imóvel " +
-              (i + 1) +
-              ":" +
-              "\nNome do Proprietário: " +
-              imoveisCadastrados[i].nomeProprietario +
-              "\nQuantidade de Quartos: " +
-              imoveisCadastrados[i].quantidadeQuartos +
-              "\nQuantidade de Banheiros: " +
-              imoveisCadastrados[i].quantidadeBanheiros +
-              "\nPossui Garagem: " +
-              imoveisCadastrados[i].garagem
-          );
-        }
-      }
-
-      break;
-    case 3:
-      alert("Encerrando o programa.");
-      break;
-    default:
-      alert("Digite apenas os números 1, 2 ou 3.");
-  }
-  opcaoMenu = parseInt(
+//funcao para chamar menu
+const menuOption = function () {
+  let option = parseInt(
     prompt(
-      "Imóveis Cadastrados = " +
-        imoveisCadastrados.length +
-        "\nDigite o número desejado:\n1-Novo Imóvel\n2-Imóveis Cadastrados\n3-Sair"
+      "Quantidade de imóveis cadastrados: " +
+        listaImoveis.length +
+        "\nInsira um número de acordo com a opção desejada:" +
+        "\n1 - Adicionar Imóvel" +
+        "\n2 - Mostrar Imóveis" +
+        "\n3 - Sair"
     )
   );
-} while (opcaoMenu !== 3);
+  return option;
+};
+
+//funcao para adicionar imovel
+let garagem = "";
+const adicionarImovel = function () {
+  const imovelCaracteristicas = {
+    nomeProprietario: prompt("Insira o nome do proprietario"),
+    quantidadeQuarto: prompt("Insira a quantidade de quartos"),
+    quantidadeBanheiro: prompt("Insira a quantidade de banheiros"),
+    possuiGaragem: confirm("O imóvel possui garagem?"),
+  };
+  garagem = imovelCaracteristicas.possuiGaragem;
+  if (garagem) {
+    imovelCaracteristicas.possuiGaragem = "Sim";
+  } else {
+    imovelCaracteristicas.possuiGaragem = "Não";
+  }
+
+  return imovelCaracteristicas;
+};
+
+//funcao para mostrar imoveis cadastrados
+function imoveisCadastrados() {
+  let mensagem = "Imóveis cadastrados: ";
+  for (let i = 0; i < listaImoveis.length; i++) {
+    const imovel = listaImoveis[i];
+    mensagem +=
+      "\nImovel " +
+      (i + 1) +
+      "\nNome do Proprietário: " +
+      imovel.nomeProprietario +
+      "\nQuantidade de Quartos: " +
+      imovel.quantidadeQuarto +
+      "\nQuantidade de Banheiros: " +
+      imovel.quantidadeBanheiro +
+      "\nPossui Garagem? " +
+      imovel.possuiGaragem +
+      "\n\n";
+  }
+  alert(mensagem);
+}
+// estrurura para rodar o sistema
+let option;
+let listaImoveis = [];
+do {
+  option = menuOption();
+
+  switch (option) {
+    case 1:
+      const novoImovel = adicionarImovel();
+      listaImoveis.push(novoImovel);
+      break;
+    case 2:
+      imoveisCadastrados();
+      break;
+    case 3:
+      alert("Saindo...");
+      break;
+    default:
+      alert("Insira uma opção válida");
+  }
+} while (option !== 3);
