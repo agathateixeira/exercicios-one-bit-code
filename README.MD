@@ -3,7 +3,9 @@
 ## :writing_hand: Descrição :writing_hand:
 
 Aqui estão alguns projetos e exercícios feitos no curso de Desenvolvedor FullStack oferecida pela <strong>One Bit Code </strong> :metal:.
+<br>
 :bulb: Os projetos estão nomeados numericamente. :bulb:
+<br>
 :bulb: Quanto maior o número do projeto, mais recente ele é!:bulb:
 
 ## :computer: Projetos :computer:
