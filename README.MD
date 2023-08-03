@@ -1,36 +1,27 @@
-# One Bit Code Exercises :metal:
+# Exercícios da One Bit Code :metal:
 
-## :dart: Goal: :dart:
+## :dart: Descrição :dart:
 
-To study by doing the exercises from the Fullstack Developer course taught by <strong>One Bit Code :metal:
+Aqui estão alguns projetos e exercícios feitos no curso de Desenvolvedor FullStack oferecida pela <strong>One Bit Code </strong> :metal:.
+:bulb: Os projetos estão nomeados numericamente. :bulb:
+:bulb: Quanto maior o número do projeto, mais recente ele é!:bulb:
 
 ![GitHub language count](https://img.shields.io/github/languages/count/agathateixeira/exercicios-one-bit-code)
 
-## :books: Practice Planning :books:
+## :books: Projetos :books:
 
-Learn and execute the following languages, libraries and frameworks:
+### :eyes: CLIQUE NOS ÍCONESABAIXO PARA VISUALIZAR O PROJETO :eyes:
 
-<img align="center" alt="HTML" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> :heavy_check_mark:
-<br>
-<img align="center" alt="CSS" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"> :heavy_check_mark:
-<br>
-<img align="center" alt="VSCode" src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white"> :heavy_check_mark:
-<br>
-<img align="center" alt="Git" src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white"> :heavy_check_mark:
-<br>
-<img align="center" alt="GitHub" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"> :heavy_check_mark: <br>
-<img align="center" alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> :dart: :nerd_face:
-<br>
-<img align="center" alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white">
-<br>
-<img align="center" alt="Sass" src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white">
-<br>
-<img align="center" alt="Bootstrap" src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white">
-<br>
-<img align="center" alt="React" src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black">
-<br>
-<img align="center" alt="Bulma" src="https://img.shields.io/badge/Bulma-00D1B2?style=for-the-badge&logo=bulma&logoColor=white">
-<br>
-<img align="center" alt="Node.js" src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white">
-<br>
-<img align="center" alt="MongoDB" src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white">
+[![001-formulario](https://img.shields.io/badge/001--formulario-FF69B4?style=for-the-badge&logo=html5&logoColor=white&labelColor=000000&color=0000ff)](https://bespoke-praline-e9cedc.netlify.app)
+[![002-lista](https://img.shields.io/badge/002--lista-FF69B4?style=for-the-badge&logo=html5&logoColor=white&labelColor=000000&color=0000ff)](https://gorgeous-queijadas-d609e6.netlify.app)
+[![003-blog](https://img.shields.io/badge/003--blog-FF69B4?style=for-the-badge&logo=css3&logoColor=white&labelColor=000000&color=0000ff)](https://cheery-kitsune-67fd03.netlify.app)
+[![004-header-one-bit-code](https://img.shields.io/badge/004--header--one--bit--code-FF69B4?style=for-the-badge&logo=css3&logoColor=white&labelColor=000000&color=0000ff)](https://rainbow-salmiakki-a9d32b.netlify.app/)
+[![005-praticando-grid](https://img.shields.io/badge/005--praticando--grid-FF69B4?style=for-the-badge&logo=css3&logoColor=white&labelColor=000000&color=0000ff)](https://effervescent-pastelito-db41c4.netlify.app/)
+[![006-blog-de-esportes](https://img.shields.io/badge/006--blog--de--esportes-FF69B4?style=for-the-badge&logo=css3&logoColor=white&labelColor=000000&color=0000ff)](https://glittery-cheesecake-4fa403.netlify.app/)
+[![007-controle-financeiro](https://img.shields.io/badge/007--controle--financeiro-FF69B4?style=for-the-badge&logo=javaScript&logoColor=white&labelColor=000000&color=0000ff)](https://controle-financeiro-by-agatha.netlify.app/)
+[![008-procurando-palindromos](https://img.shields.io/badge/008--procurando--palindromoss-FF69B4?style=for-the-badge&logo=javaScript&logoColor=white&labelColor=000000&color=0000ff)](https://procurando-palindromos.netlify.app/)
+[![009-robo-da-tabuada](https://img.shields.io/badge/009--robo--da--tabuada-FF69B4?style=for-the-badge&logo=javaScript&logoColor=white&labelColor=000000&color=0000ff)](https://robo-da-tabuada.netlify.app/)
+[![010-lista-de-espera](https://img.shields.io/badge/010--lista--de--espera-FF69B4?style=for-the-badge&logo=javaScript&logoColor=white&labelColor=000000&color=0000ff)](https://fila-de-espera.netlify.app/)
+[![011-pilha-de-cartas](https://img.shields.io/badge/011--pilha--de--cartas-FF69B4?style=for-the-badge&logo=javaScript&logoColor=white&labelColor=000000&color=0000ff)](https://pilha-de-cartas.netlify.app)
+[![012-calculadora-simples](https://img.shields.io/badge/012--calculadora--simples-FF69B4?style=for-the-badge&logo=javaScript&logoColor=white&labelColor=000000&color=0000ff)](https://calculadora-simples-by-agatha.netlify.app/)
+[![013-cadastro-de-recrutas](https://img.shields.io/badge/013--cadastro--de--recrutas-FF69B4?style=for-the-badge&logo=javaScript&logoColor=white&labelColor=000000&color=0000ff)](https://cadastro-de-recrutas-by-agatha.netlify.app/)
