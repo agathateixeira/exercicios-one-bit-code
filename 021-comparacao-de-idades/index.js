@@ -1,38 +1,3 @@
-//Pedir nome da pessoa mais velha
-//Pedir idade da pessoa mais velha
-//Pedir nome da pessoa mais nova
-//Pedir idade da pessoa mais nova
-//Calcular diferença de idade
-//Exibir:
-//      Nome da pessoa mais velha e sua idade
-//      Nome da pessoa mais nova e sua idade
-//      Diferença de idade
-
-// // fazendo de forma mais simples
-// let nomeVelha = prompt("Insira o nome da pessoa mais velha:");
-// let idadeVelha = parseInt(prompt("Insira a idade da pessoa mais velha:"));
-// let nomeNova = prompt("Insira o nome da pessoa mais nova:");
-// let idadeNova = parseInt(prompt("Insira a idade da pessoa mais nova:"));
-// const diferencaIdade = idadeVelha - idadeNova;
-
-// alert(
-//   "Nome da pessoa mais velha: " +
-//     nomeVelha +
-//     "\nIdade da pessoa mais velha = " +
-//     idadeVelha +
-//     " anos." +
-//     "\n\nNome da pessoa mais nova: " +
-//     nomeNova +
-//     "\nIdade da pessoa mais nova = " +
-//     idadeNova +
-//     " anos." +
-//     "\n\nDiferença entre idades = " +
-//     diferencaIdade +
-//     " anos."
-// );
-
-//TREINANDO FUNCTIONS:
-
 //function para solicitar nome e idade
 let questionario = function () {
   let perguntasUsuario = {
