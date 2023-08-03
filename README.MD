@@ -1,16 +1,6 @@
-# Exercícios da One Bit Code :metal:
+<div align="center">
 
-## :dart: Descrição :dart:
-
-Aqui estão alguns projetos e exercícios feitos no curso de Desenvolvedor FullStack oferecida pela <strong>One Bit Code </strong> :metal:.
-:bulb: Os projetos estão nomeados numericamente. :bulb:
-:bulb: Quanto maior o número do projeto, mais recente ele é!:bulb:
-
-![GitHub language count](https://img.shields.io/github/languages/count/agathateixeira/exercicios-one-bit-code)
-
-## :books: Projetos :books:
-
-### :eyes: CLIQUE NOS ÍCONESABAIXO PARA VISUALIZAR O PROJETO :eyes:
+### :eyes: CLIQUE NOS ÍCONES ABAIXO PARA VISUALIZAR O PROJETO :eyes:
 
 [![001-formulario](https://img.shields.io/badge/001--formulario-FF69B4?style=for-the-badge&logo=html5&logoColor=white&labelColor=000000&color=0000ff)](https://bespoke-praline-e9cedc.netlify.app)
 [![002-lista](https://img.shields.io/badge/002--lista-FF69B4?style=for-the-badge&logo=html5&logoColor=white&labelColor=000000&color=0000ff)](https://gorgeous-queijadas-d609e6.netlify.app)
@@ -25,3 +15,5 @@ Aqui estão alguns projetos e exercícios feitos no curso de Desenvolvedor FullS
 [![011-pilha-de-cartas](https://img.shields.io/badge/011--pilha--de--cartas-FF69B4?style=for-the-badge&logo=javaScript&logoColor=white&labelColor=000000&color=0000ff)](https://pilha-de-cartas.netlify.app)
 [![012-calculadora-simples](https://img.shields.io/badge/012--calculadora--simples-FF69B4?style=for-the-badge&logo=javaScript&logoColor=white&labelColor=000000&color=0000ff)](https://calculadora-simples-by-agatha.netlify.app/)
 [![013-cadastro-de-recrutas](https://img.shields.io/badge/013--cadastro--de--recrutas-FF69B4?style=for-the-badge&logo=javaScript&logoColor=white&labelColor=000000&color=0000ff)](https://cadastro-de-recrutas-by-agatha.netlify.app/)
+
+</div>
