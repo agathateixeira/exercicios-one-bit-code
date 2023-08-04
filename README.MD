@@ -12,6 +12,7 @@ Aqui estão alguns projetos e exercícios feitos no curso de Desenvolvedor FullS
 
 ### :eyes: CLIQUE NOS ÍCONESABAIXO PARA VISUALIZAR O PROJETO :eyes:
 
+[![024-contador-de-dobras](https://img.shields.io/badge/024--contador--de--dobras-FF69B4?style=for-the-badge&logo=javaScript&logoColor=white&labelColor=000000&color=0000ff)](https://contador-de-dobras.netlify.app)
 [![023-conversor-de-unidade-espacial](https://img.shields.io/badge/023--conversor--de--unidade--espacial-FF69B4?style=for-the-badge&logo=javaScript&logoColor=white&labelColor=000000&color=0000ff)](https://conversor-de-unidade-espacial.netlify.app/)
 [![022-acelerador-de-nave](https://img.shields.io/badge/022--acelerador--de--nave-FF69B4?style=for-the-badge&logo=javaScript&logoColor=white&labelColor=000000&color=0000ff)](https://acelerador-de-nave.netlify.app/)
 [![021-comparacao-de-idades](https://img.shields.io/badge/021--comparacao--de--idades-FF69B4?style=for-the-badge&logo=javaScript&logoColor=white&labelColor=000000&color=0000ff)](https://comparacao-de-idades.netlify.app/)
