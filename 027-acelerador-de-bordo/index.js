@@ -1,23 +1,3 @@
-//Vamos criar um programa de bordo para nossa nave que receba o nome da nave//
-//A velocidade da nave deve ser inicialmente 0 e um menu deve ser exibido//
-////para que o usuario escolha entre as seguintes opções://
-
-//1-acelerar a nave em 5km/s//
-//2-desacelerar em kkm/s//
-//// por mais que desacelere, a nave nao pode ter uma velocidade menor que 0km/s//
-//3-imprimir dados a bordo//
-////deve ser impresso o nome da nave com sua velocidade atual//
-//4-sair do programa//
-
-//Caso a pessoa escolha um numero que não está na lista, é necessário//
-//exibir o menu novamente até que seja escolhida uma opção válida.//
-
-//Para fazer esse app precisaremos:
-//1-Criar uma função que exiba o  menu e valide a opção escolhida
-//2-Uma função para cada ação do menu de acelerar. desacelerar e imprimir
-//dados de bordo
-//3-Encerrar app somente quando digirar para sair
-
 const initialVelocity = 0;
 let currentVelocity = initialVelocity;
 const spaceshipName = prompt("Insira o nome da nave: ");
